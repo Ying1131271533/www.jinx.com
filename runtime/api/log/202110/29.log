@@ -1,0 +1,4 @@
+[2021-10-29T10:34:25+08:00][error] [0]Call to undefined method think\Db::query()[D:\Web\www.jinx.com\app\api\controller\v1\User.php:11]
+[2021-10-29T10:35:11+08:00][error] [0]Call to undefined method think\Db::query()[D:\Web\www.jinx.com\app\api\controller\v1\User.php:11]
+[2021-10-29T10:35:27+08:00][error] [0]Call to undefined method think\Db::query()[D:\Web\www.jinx.com\app\api\controller\v1\User.php:11]
+[2021-10-29T10:35:43+08:00][error] [0]Call to undefined method think\Db::query()[D:\Web\www.jinx.com\app\api\controller\v1\User.php:11]

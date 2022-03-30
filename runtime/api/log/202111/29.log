@@ -1,0 +1,28 @@
+[2021-11-29T10:47:40+08:00][error] [2]openssl_verify(): supplied key param cannot be coerced into a public key[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:272]
+[2021-11-29T11:00:54+08:00][error] [8]æœªå®šä¹‰å˜é‡: private_key[D:\Web\www.jinx.com\app\api\controller\Index.php:34]
+[2021-11-29T11:09:06+08:00][error] [8]æœªå®šä¹‰å˜é‡: jwt[D:\Web\www.jinx.com\app\api\controller\Index.php:39]
+[2021-11-29T11:09:16+08:00][error] [0]Algorithm not allowed[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:121]
+[2021-11-29T11:10:08+08:00][error] [0]Algorithm not allowed[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:121]
+[2021-11-29T11:10:08+08:00][error] [0]Algorithm not allowed[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:121]
+[2021-11-29T11:10:09+08:00][error] [0]Algorithm not allowed[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:121]
+[2021-11-29T11:11:42+08:00][error] [8]æœªå®šä¹‰å˜é‡: jwt[D:\Web\www.jinx.com\app\api\controller\Index.php:38]
+[2021-11-29T11:11:43+08:00][error] [8]æœªå®šä¹‰å˜é‡: jwt[D:\Web\www.jinx.com\app\api\controller\Index.php:38]
+[2021-11-29T11:13:53+08:00][error] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: data[D:\Web\www.jinx.com\app\common\lib\Jwttoken.php:39]
+[2021-11-29T11:13:54+08:00][error] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: data[D:\Web\www.jinx.com\app\common\lib\Jwttoken.php:39]
+[2021-11-29T11:36:44+08:00][error] [2]openssl_verify(): supplied key param cannot be coerced into a public key[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:272]
+[2021-11-29T11:36:58+08:00][error] [2]openssl_sign(): supplied key param cannot be coerced into a private key[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:225]
+[2021-11-29T14:43:02+08:00][error] [0]ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+[D:\Web\www.jinx.com\vendor\topthink\framework\src\think\cache\driver\Redis.php:63]
+[2021-11-29T14:49:59+08:00][error] [0]ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+[D:\Web\www.jinx.com\vendor\topthink\framework\src\think\cache\driver\Redis.php:63]
+[2021-11-29T14:50:03+08:00][error] [0]ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+[D:\Web\www.jinx.com\vendor\topthink\framework\src\think\cache\driver\Redis.php:63]
+[2021-11-29T14:51:50+08:00][error] [0]ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+[D:\Web\www.jinx.com\vendor\topthink\framework\src\think\cache\driver\Redis.php:63]
+[2021-11-29T17:25:26+08:00][error] [0]Wrong number of segments[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:92]
+[2021-11-29T17:50:25+08:00][error] [0]Wrong number of segments[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:92]
+[2021-11-29T17:51:51+08:00][error] [0]Wrong number of segments[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:92]
+[2021-11-29T17:57:39+08:00][error] [2]openssl_sign(): supplied key param cannot be coerced into a private key[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:226]
+[2021-11-29T18:00:23+08:00][error] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: publickey[D:\Web\www.jinx.com\app\api\controller\Index.php:26]
+[2021-11-29T18:05:59+08:00][error] [2]openssl_sign(): supplied key param cannot be coerced into a private key[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:226]
+[2021-11-29T18:17:32+08:00][error] [0]Wrong number of segments[D:\Web\www.jinx.com\vendor\firebase\php-jwt\src\JWT.php:92]

@@ -1,0 +1,25 @@
+[2021-11-09T10:42:35+08:00][sql] CONNECT:[ UseTime:0.002916s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-09T10:42:35+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.008850s ]
+[2021-11-09T10:42:35+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000244s ]
+[2021-11-09T10:42:35+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000165s ]
+[2021-11-09T10:42:35+08:00][error] [0]Class 'phpmailer\Exception' not found[D:\Web\www.jinx.com\extend\phpmailer\PHPMailer.php:2159]
+[2021-11-09T10:43:27+08:00][sql] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-09T10:43:27+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002213s ]
+[2021-11-09T10:43:27+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000612s ]
+[2021-11-09T10:43:27+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000943s ]
+[2021-11-09T10:43:27+08:00][error] [0]Class 'phpmailer\Exception' not found[D:\Web\www.jinx.com\extend\phpmailer\PHPMailer.php:2159]
+[2021-11-09T10:43:47+08:00][sql] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-09T10:43:47+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002212s ]
+[2021-11-09T10:43:47+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000514s ]
+[2021-11-09T10:43:47+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000728s ]
+[2021-11-09T10:43:47+08:00][error] [0]Class 'phpmailer\Exception' not found[D:\Web\www.jinx.com\extend\phpmailer\PHPMailer.php:2002]
+[2021-11-09T10:45:13+08:00][sql] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-09T10:45:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002345s ]
+[2021-11-09T10:45:13+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000231s ]
+[2021-11-09T10:45:13+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000165s ]
+[2021-11-09T10:45:13+08:00][error] [0]Class 'phpmailer\Exception' not found[D:\Web\www.jinx.com\extend\phpmailer\PHPMailer.php:2159]
+[2021-11-09T10:56:26+08:00][sql] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-09T10:56:26+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002288s ]
+[2021-11-09T10:56:26+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.001257s ]
+[2021-11-09T10:56:26+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000650s ]
+[2021-11-09T10:56:26+08:00][error] [0]Call to undefined method app\api\controller\Code::send_code_to_email()[D:\Web\www.jinx.com\app\api\controller\Code.php:67]

@@ -1,0 +1,22 @@
+[2021-12-15T09:30:28+08:00][error] [0]Call to undefined method app\Request::instances()[D:\Web\www.jinx.com\app\common\middleware\CheckParams.php:17]
+[2021-12-15T09:30:39+08:00][error] [0]Call to undefined method app\Request::name()[D:\Web\www.jinx.com\app\common\middleware\CheckParams.php:17]
+[2021-12-15T09:39:41+08:00][sql] CONNECT:[ UseTime:0.016499s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-15T09:39:41+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.015870s ]
+[2021-12-15T09:39:41+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.007489s ]
+[2021-12-15T09:39:41+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.010177s ]
+[2021-12-15T09:39:41+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.002063s ]
+[2021-12-15T09:39:41+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:124]
+[2021-12-15T09:40:13+08:00][sql] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-15T09:40:13+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.004437s ]
+[2021-12-15T09:40:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.004113s ]
+[2021-12-15T09:40:13+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.002235s ]
+[2021-12-15T09:40:13+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:124]
+[2021-12-15T11:18:28+08:00][sql] CONNECT:[ UseTime:0.017956s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-15T11:18:28+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.002580s ]
+[2021-12-15T11:18:28+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002173s ]
+[2021-12-15T11:18:28+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.003568s ]
+[2021-12-15T11:18:28+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:124]
+[2021-12-15T18:15:20+08:00][sql] CONNECT:[ UseTime:0.001993s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-15T18:15:20+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.008848s ]
+[2021-12-15T18:15:20+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000557s ]
+[2021-12-15T18:15:20+08:00][error] [10500]数据表字段不存在:[content][D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Builder.php:164]

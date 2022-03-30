@@ -1,0 +1,80 @@
+[2021-12-14T11:25:48+08:00][sql] CONNECT:[ UseTime:0.004355s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:25:48+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.010589s ]
+[2021-12-14T11:25:48+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.002719s ]
+[2021-12-14T11:25:48+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣12'  WHERE  `id` = 8 [ RunTime:0.002653s ]
+[2021-12-14T11:25:48+08:00][error] [408][D:\Web\www.jinx.com\app\api\controller\Article.php:143]
+[2021-12-14T11:25:55+08:00][sql] CONNECT:[ UseTime:0.024314s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:25:55+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000687s ]
+[2021-12-14T11:25:55+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣121'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000341s ]
+[2021-12-14T11:25:55+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣121'  WHERE  `id` = 8 [ RunTime:0.000538s ]
+[2021-12-14T11:25:55+08:00][error] [408][D:\Web\www.jinx.com\app\api\controller\Article.php:143]
+[2021-12-14T11:25:57+08:00][sql] CONNECT:[ UseTime:0.024488s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:25:57+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000648s ]
+[2021-12-14T11:25:57+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣121'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000314s ]
+[2021-12-14T11:25:57+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣121'  WHERE  `id` = 8 [ RunTime:0.000340s ]
+[2021-12-14T11:25:57+08:00][error] [408][D:\Web\www.jinx.com\app\api\controller\Article.php:143]
+[2021-12-14T11:26:08+08:00][sql] CONNECT:[ UseTime:0.021815s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:26:08+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000949s ]
+[2021-12-14T11:26:08+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣121'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000315s ]
+[2021-12-14T11:26:08+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣121'  WHERE  `id` = 8 [ RunTime:0.000272s ]
+[2021-12-14T11:26:08+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.001579s ]
+[2021-12-14T11:26:08+08:00][sql] REPLACE INTO `article_desc` SET `content` = '天空上下的雨，滴落在契约纸上，哒哒哒，仿佛三千世界都在哭泣01' , `article_id` = 8 [ RunTime:0.000329s ]
+[2021-12-14T11:26:08+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:150]
+[2021-12-14T11:26:37+08:00][sql] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:26:37+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000696s ]
+[2021-12-14T11:26:37+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣121'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000280s ]
+[2021-12-14T11:26:37+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣121'  WHERE  `id` = 8 [ RunTime:0.000477s ]
+[2021-12-14T11:26:37+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000597s ]
+[2021-12-14T11:26:37+08:00][sql] REPLACE INTO `article_desc` SET `content` = '天空上下的雨，滴落在契约纸上，哒哒哒，仿佛三千世界都在哭泣01' , `article_id` = 8 [ RunTime:0.000259s ]
+[2021-12-14T11:26:37+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:152]
+[2021-12-14T11:26:49+08:00][sql] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:26:49+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000680s ]
+[2021-12-14T11:26:49+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000290s ]
+[2021-12-14T11:26:49+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣12'  WHERE  `id` = 8 [ RunTime:0.000274s ]
+[2021-12-14T11:26:49+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000503s ]
+[2021-12-14T11:26:49+08:00][sql] REPLACE INTO `article_desc` SET `content` = '天空上下的雨，滴落在契约纸上，哒哒哒，仿佛三千世界都在哭泣01' , `article_id` = 8 [ RunTime:0.000219s ]
+[2021-12-14T11:26:49+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:152]
+[2021-12-14T11:27:45+08:00][sql] CONNECT:[ UseTime:0.000583s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:27:45+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000651s ]
+[2021-12-14T11:27:45+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000746s ]
+[2021-12-14T11:27:45+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣12'  WHERE  `id` = 8 [ RunTime:0.000554s ]
+[2021-12-14T11:28:07+08:00][sql] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:28:07+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000592s ]
+[2021-12-14T11:28:07+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.001093s ]
+[2021-12-14T11:28:07+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣12'  WHERE  `id` = 8 [ RunTime:0.000370s ]
+[2021-12-14T11:28:20+08:00][sql] CONNECT:[ UseTime:0.020246s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:28:20+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.002017s ]
+[2021-12-14T11:28:20+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000428s ]
+[2021-12-14T11:28:20+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣12'  WHERE  `id` = 8 [ RunTime:0.000343s ]
+[2021-12-14T11:28:20+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000538s ]
+[2021-12-14T11:28:20+08:00][sql] REPLACE INTO `article_desc` SET `content` = '天空上下的雨，滴落在契约纸上，哒哒哒，仿佛三千世界都在哭泣01' , `article_id` = 8 [ RunTime:0.000222s ]
+[2021-12-14T11:28:20+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:152]
+[2021-12-14T11:29:00+08:00][sql] CONNECT:[ UseTime:0.017595s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:29:00+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000668s ]
+[2021-12-14T11:29:00+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000306s ]
+[2021-12-14T11:29:00+08:00][error] [10500]数据表字段不存在:[content][D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Builder.php:164]
+[2021-12-14T11:33:55+08:00][sql] CONNECT:[ UseTime:0.019112s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:33:55+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000818s ]
+[2021-12-14T11:33:55+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000340s ]
+[2021-12-14T11:33:55+08:00][error] [10500]method not exist:think\db\Query->allowField[D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2021-12-14T11:36:57+08:00][sql] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:36:57+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000661s ]
+[2021-12-14T11:36:57+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000329s ]
+[2021-12-14T11:36:57+08:00][error] [10500]method not exist:think\db\Query->allowField[D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2021-12-14T11:37:13+08:00][sql] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:37:13+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000651s ]
+[2021-12-14T11:37:13+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000295s ]
+[2021-12-14T11:37:13+08:00][error] [8192]Non-static method think\Model::allowField() should not be called statically[D:\Web\www.jinx.com\app\api\controller\Article.php:140]
+[2021-12-14T11:38:11+08:00][sql] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:38:11+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.001860s ]
+[2021-12-14T11:38:11+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000530s ]
+[2021-12-14T11:38:11+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣12'  WHERE  `id` = 8 [ RunTime:0.000367s ]
+[2021-12-14T11:38:11+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000496s ]
+[2021-12-14T11:38:11+08:00][sql] REPLACE INTO `article_desc` SET `content` = '天空上下的雨，滴落在契约纸上，哒哒哒，仿佛三千世界都在哭泣01' , `article_id` = 8 [ RunTime:0.000215s ]
+[2021-12-14T11:38:11+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:151]
+[2021-12-14T11:51:25+08:00][sql] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-14T11:51:25+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.001227s ]
+[2021-12-14T11:51:25+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.001565s ]
+[2021-12-14T11:51:25+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000733s ]
+[2021-12-14T11:51:25+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000526s ]
+[2021-12-14T11:51:25+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:124]

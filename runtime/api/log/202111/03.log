@@ -1,0 +1,4 @@
+[2021-11-03T18:06:19+08:00][error] [0]Call to undefined method think\Request::instance()[D:\Web\www.jinx.com\app\api\controller\Base.php:15]
+[2021-11-03T18:12:57+08:00][error] [0]Argument 1 passed to think\Request::only() must be of the type array, string given, called in D:\Web\www.jinx.com\app\api\controller\Base.php on line 16[D:\Web\www.jinx.com\vendor\topthink\framework\src\think\Request.php:1482]
+[2021-11-03T18:13:33+08:00][error] [2]json_decode() expects parameter 1 to be string, array given[D:\Web\www.jinx.com\app\api\controller\Base.php:57]
+[2021-11-03T18:24:02+08:00][error] [8192]Non-static method think\Request::param() should not be called statically[D:\Web\www.jinx.com\app\api\controller\Base.php:16]

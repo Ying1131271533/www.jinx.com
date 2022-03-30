@@ -1,0 +1,13 @@
+[2021-11-12T16:46:13+08:00][sql] CONNECT:[ UseTime:0.004152s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-12T16:46:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.006180s ]
+[2021-11-12T16:46:13+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '15119498976' LIMIT 1 [ RunTime:0.000488s ]
+[2021-11-12T16:46:13+08:00][sql] SELECT * FROM `user` WHERE  `email` = '15119498976' LIMIT 1 [ RunTime:0.000199s ]
+[2021-11-12T16:46:31+08:00][sql] CONNECT:[ UseTime:0.000788s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-12T16:46:31+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.003559s ]
+[2021-11-12T16:46:31+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '15119498976' LIMIT 1 [ RunTime:0.000330s ]
+[2021-11-12T16:46:31+08:00][sql] SELECT * FROM `user` WHERE  `email` = '15119498976' LIMIT 1 [ RunTime:0.000230s ]
+[2021-11-12T18:11:41+08:00][sql] CONNECT:[ UseTime:0.002869s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-12T18:11:41+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002360s ]
+[2021-11-12T18:11:41+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000579s ]
+[2021-11-12T18:11:41+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000180s ]
+[2021-11-12T18:11:41+08:00][error] [0]Class 'app\api\controller\PHPMailer' not found[D:\Web\www.jinx.com\app\api\controller\Code.php:180]

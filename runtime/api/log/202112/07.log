@@ -1,0 +1,5 @@
+[2021-12-07T15:15:37+08:00][error] [1024]Decryption error[D:\Web\www.jinx.com\vendor\phpseclib\phpseclib\phpseclib\Crypt\RSA.php:2707]
+[2021-12-07T15:15:37+08:00][error] [0]Malformed UTF-8 characters, possibly incorrectly encoded[D:\Web\www.jinx.com\vendor\topthink\framework\src\think\response\Json.php:50]
+[2021-12-07T15:19:43+08:00][sql] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-07T15:19:43+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000698s ]
+[2021-12-07T15:19:43+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.000283s ]

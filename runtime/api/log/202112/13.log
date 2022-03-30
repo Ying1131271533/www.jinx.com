@@ -1,0 +1,206 @@
+[2021-12-13T17:32:43+08:00][sql] CONNECT:[ UseTime:0.005357s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T17:32:43+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.010591s ]
+[2021-12-13T17:32:43+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.000558s ]
+[2021-12-13T18:17:35+08:00][sql] CONNECT:[ UseTime:0.019751s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:17:35+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.003226s ]
+[2021-12-13T18:17:35+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002785s ]
+[2021-12-13T18:17:35+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.002409s ]
+[2021-12-13T18:17:35+08:00][error] [8]Array to string conversion[D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Connection.php:293]
+[2021-12-13T18:25:04+08:00][sql] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:25:04+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000585s ]
+[2021-12-13T18:25:16+08:00][sql] CONNECT:[ UseTime:0.017895s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:25:16+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.002417s ]
+[2021-12-13T18:25:17+08:00][sql] CONNECT:[ UseTime:0.018731s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:25:17+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000605s ]
+[2021-12-13T18:25:17+08:00][sql] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:25:17+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000595s ]
+[2021-12-13T18:25:20+08:00][sql] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:25:20+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000559s ]
+[2021-12-13T18:25:31+08:00][sql] CONNECT:[ UseTime:0.000971s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:25:31+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.001653s ]
+[2021-12-13T18:25:31+08:00][sql] SELECT * FROM `article` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000362s ]
+[2021-12-13T18:25:33+08:00][sql] CONNECT:[ UseTime:0.021139s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:25:33+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.001442s ]
+[2021-12-13T18:43:57+08:00][sql] CONNECT:[ UseTime:0.000546s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:43:57+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000566s ]
+[2021-12-13T18:43:57+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣1'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000439s ]
+[2021-12-13T18:43:57+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣1'  WHERE  `id` = 8 [ RunTime:0.000308s ]
+[2021-12-13T18:43:57+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000528s ]
+[2021-12-13T18:43:57+08:00][sql] REPLACE INTO `article_desc` SET `content` = '天空上下的雨，滴落在契约纸上，哒哒哒，仿佛三千世界都在哭泣01' , `article_id` = 8 [ RunTime:0.000207s ]
+[2021-12-13T18:43:57+08:00][error] [408][D:\Web\www.jinx.com\app\api\controller\Article.php:148]
+[2021-12-13T18:44:16+08:00][sql] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:44:16+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000952s ]
+[2021-12-13T18:44:16+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.001243s ]
+[2021-12-13T18:44:16+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000616s ]
+[2021-12-13T18:44:16+08:00][error] [408][D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:44:39+08:00][sql] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:44:39+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000558s ]
+[2021-12-13T18:44:39+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000474s ]
+[2021-12-13T18:44:39+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000590s ]
+[2021-12-13T18:44:39+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.001034s ]
+[2021-12-13T18:44:39+08:00][error] [408][D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:44:41+08:00][sql] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:44:41+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000669s ]
+[2021-12-13T18:44:41+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000639s ]
+[2021-12-13T18:44:41+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000496s ]
+[2021-12-13T18:44:41+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000302s ]
+[2021-12-13T18:44:41+08:00][error] [408][D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:46:23+08:00][sql] CONNECT:[ UseTime:0.001472s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:46:23+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000954s ]
+[2021-12-13T18:46:23+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000524s ]
+[2021-12-13T18:46:23+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000455s ]
+[2021-12-13T18:46:23+08:00][error] [0]Call to undefined method think\exception\ErrorException::getError()[D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:46:31+08:00][sql] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:46:31+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.001844s ]
+[2021-12-13T18:46:31+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000861s ]
+[2021-12-13T18:46:31+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000488s ]
+[2021-12-13T18:46:31+08:00][error] [400][D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:47:44+08:00][sql] CONNECT:[ UseTime:0.015991s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:47:44+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000637s ]
+[2021-12-13T18:47:44+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000446s ]
+[2021-12-13T18:47:44+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.002345s ]
+[2021-12-13T18:47:44+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000382s ]
+[2021-12-13T18:47:44+08:00][error] [400][D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:48:59+08:00][sql] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:48:59+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000689s ]
+[2021-12-13T18:48:59+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000441s ]
+[2021-12-13T18:48:59+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000929s ]
+[2021-12-13T18:48:59+08:00][error] [0]Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]])[D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:49:15+08:00][sql] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:49:15+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000572s ]
+[2021-12-13T18:49:15+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000438s ]
+[2021-12-13T18:49:15+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000404s ]
+[2021-12-13T18:49:15+08:00][error] [0]Array to string conversion[D:\Web\www.jinx.com\app\api\controller\Article.php:121]
+[2021-12-13T18:51:33+08:00][sql] CONNECT:[ UseTime:0.017660s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:51:33+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.001443s ]
+[2021-12-13T18:51:33+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000743s ]
+[2021-12-13T18:51:33+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000514s ]
+[2021-12-13T18:51:33+08:00][error] [0]Array to string conversion[D:\Web\www.jinx.com\app\api\controller\Article.php:123]
+[2021-12-13T18:51:41+08:00][sql] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:51:41+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000574s ]
+[2021-12-13T18:51:41+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000440s ]
+[2021-12-13T18:51:41+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000415s ]
+[2021-12-13T18:51:41+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000317s ]
+[2021-12-13T18:51:41+08:00][error] [0][D:\Web\www.jinx.com\app\api\controller\Article.php:123]
+[2021-12-13T18:52:13+08:00][sql] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:52:13+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000590s ]
+[2021-12-13T18:52:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000431s ]
+[2021-12-13T18:52:13+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000404s ]
+[2021-12-13T18:52:13+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000868s ]
+[2021-12-13T18:52:13+08:00][error] [0][D:\Web\www.jinx.com\app\api\controller\Article.php:124]
+[2021-12-13T18:53:06+08:00][sql] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:53:06+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000629s ]
+[2021-12-13T18:53:06+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000432s ]
+[2021-12-13T18:53:06+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000455s ]
+[2021-12-13T18:53:06+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000777s ]
+[2021-12-13T18:53:06+08:00][error] [0][D:\Web\www.jinx.com\app\api\controller\Article.php:124]
+[2021-12-13T18:53:54+08:00][sql] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:53:54+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000598s ]
+[2021-12-13T18:53:54+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000450s ]
+[2021-12-13T18:53:54+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000550s ]
+[2021-12-13T18:53:54+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000334s ]
+[2021-12-13T18:53:54+08:00][error] [0][D:\Web\www.jinx.com\app\api\controller\Article.php:123]
+[2021-12-13T18:54:25+08:00][sql] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T18:54:25+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000685s ]
+[2021-12-13T18:54:25+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002347s ]
+[2021-12-13T18:54:25+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.001221s ]
+[2021-12-13T18:54:25+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`nickname` AS `user__nickname`,`desc`.`content` AS `desc__content` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000619s ]
+[2021-12-13T18:54:25+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:120]
+[2021-12-13T19:05:15+08:00][sql] CONNECT:[ UseTime:0.001671s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:05:15+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000964s ]
+[2021-12-13T19:05:15+08:00][sql] SELECT * FROM `article` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000413s ]
+[2021-12-13T19:05:15+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002400s ]
+[2021-12-13T19:05:15+08:00][sql] SELECT `nickname` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000246s ]
+[2021-12-13T19:05:15+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000474s ]
+[2021-12-13T19:05:15+08:00][sql] SELECT `content` FROM `article_desc` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000221s ]
+[2021-12-13T19:05:15+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:123]
+[2021-12-13T19:05:51+08:00][sql] CONNECT:[ UseTime:0.013594s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:05:51+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000663s ]
+[2021-12-13T19:05:51+08:00][sql] SELECT * FROM `article` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000266s ]
+[2021-12-13T19:05:51+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000479s ]
+[2021-12-13T19:05:51+08:00][sql] SELECT `nickname` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2021-12-13T19:05:51+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.001222s ]
+[2021-12-13T19:05:51+08:00][sql] SELECT `content` FROM `article_desc` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000346s ]
+[2021-12-13T19:05:51+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:123]
+[2021-12-13T19:07:02+08:00][sql] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:07:02+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000573s ]
+[2021-12-13T19:07:02+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000459s ]
+[2021-12-13T19:07:02+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000459s ]
+[2021-12-13T19:07:02+08:00][error] [8]Array to string conversion[D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Connection.php:293]
+[2021-12-13T19:10:27+08:00][sql] CONNECT:[ UseTime:0.000986s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:10:27+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000885s ]
+[2021-12-13T19:10:27+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000509s ]
+[2021-12-13T19:10:27+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000528s ]
+[2021-12-13T19:10:27+08:00][error] [8]Array to string conversion[D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Connection.php:293]
+[2021-12-13T19:11:38+08:00][sql] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:11:38+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000754s ]
+[2021-12-13T19:11:38+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000490s ]
+[2021-12-13T19:11:38+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000882s ]
+[2021-12-13T19:11:51+08:00][sql] CONNECT:[ UseTime:0.000526s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:11:51+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000567s ]
+[2021-12-13T19:11:51+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000457s ]
+[2021-12-13T19:11:51+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000431s ]
+[2021-12-13T19:12:03+08:00][sql] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:12:03+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000601s ]
+[2021-12-13T19:12:03+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000447s ]
+[2021-12-13T19:12:03+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000415s ]
+[2021-12-13T19:12:13+08:00][sql] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:12:13+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000596s ]
+[2021-12-13T19:12:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000646s ]
+[2021-12-13T19:12:13+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.001684s ]
+[2021-12-13T19:15:02+08:00][sql] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:15:02+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000625s ]
+[2021-12-13T19:15:02+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000436s ]
+[2021-12-13T19:15:02+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000432s ]
+[2021-12-13T19:15:13+08:00][sql] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:15:13+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000554s ]
+[2021-12-13T19:15:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000442s ]
+[2021-12-13T19:15:13+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.001061s ]
+[2021-12-13T19:15:13+08:00][error] [8]未定义数组下标: 0[D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Connection.php:295]
+[2021-12-13T19:15:20+08:00][sql] CONNECT:[ UseTime:0.001244s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:15:20+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000984s ]
+[2021-12-13T19:15:20+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000544s ]
+[2021-12-13T19:15:20+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000441s ]
+[2021-12-13T19:18:13+08:00][sql] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:18:13+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000722s ]
+[2021-12-13T19:18:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000516s ]
+[2021-12-13T19:18:13+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000431s ]
+[2021-12-13T19:18:25+08:00][sql] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:18:25+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000572s ]
+[2021-12-13T19:18:25+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002003s ]
+[2021-12-13T19:18:25+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000632s ]
+[2021-12-13T19:19:45+08:00][sql] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:19:45+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000622s ]
+[2021-12-13T19:19:45+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000444s ]
+[2021-12-13T19:19:45+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000450s ]
+[2021-12-13T19:19:45+08:00][error] [8]未定义变量: table_name[D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Connection.php:292]
+[2021-12-13T19:19:58+08:00][sql] CONNECT:[ UseTime:0.022670s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:19:58+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000581s ]
+[2021-12-13T19:19:58+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000444s ]
+[2021-12-13T19:19:58+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000668s ]
+[2021-12-13T19:20:04+08:00][sql] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:20:04+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000573s ]
+[2021-12-13T19:20:04+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000436s ]
+[2021-12-13T19:20:04+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000406s ]
+[2021-12-13T19:20:04+08:00][sql] SELECT `article`.`id`,`article`.`title`,`article`.`is_del`,`article`.`create_time`,`article`.`user_id`,`user`.`id` AS `user__id`,`user`.`nickname` AS `user__nickname`,`user`.`password` AS `user__password`,`user`.`phone` AS `user__phone`,`user`.`email` AS `user__email`,`user`.`avatar` AS `user__avatar`,`user`.`create_time` AS `user__create_time`,`desc`.`content` AS `desc__content`,`desc`.`article_id` AS `desc__article_id` FROM `article` `article` INNER JOIN `user` `user` ON `article`.`user_id`=`user`.`id` INNER JOIN `article_desc` `desc` ON `article`.`id`=`desc`.`article_id` WHERE  `article`.`id` = '8' LIMIT 1 [ RunTime:0.000368s ]
+[2021-12-13T19:25:41+08:00][sql] CONNECT:[ UseTime:0.000713s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:25:41+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000727s ]
+[2021-12-13T19:25:41+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000474s ]
+[2021-12-13T19:25:41+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000664s ]
+[2021-12-13T19:25:41+08:00][sql] SELECT `nickname` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000429s ]
+[2021-12-13T19:25:41+08:00][sql] SELECT `content` FROM `article_desc` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000335s ]
+[2021-12-13T19:25:41+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:125]
+[2021-12-13T19:26:02+08:00][sql] CONNECT:[ UseTime:0.001174s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:26:02+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000755s ]
+[2021-12-13T19:26:02+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000539s ]
+[2021-12-13T19:26:02+08:00][sql] SHOW FULL COLUMNS FROM `article_desc` [ RunTime:0.000450s ]
+[2021-12-13T19:26:02+08:00][error] [200][D:\Web\www.jinx.com\app\api\controller\Article.php:125]
+[2021-12-13T19:27:55+08:00][sql] CONNECT:[ UseTime:0.000546s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:27:55+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000681s ]
+[2021-12-13T19:27:55+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000318s ]
+[2021-12-13T19:27:55+08:00][sql] UPDATE `article`  SET `title` = '浸泡世界的哭泣12'  WHERE  `id` = 8 [ RunTime:0.000328s ]
+[2021-12-13T19:27:55+08:00][error] [0]method not exist:think\db\Query->desc[D:\Web\www.jinx.com\app\api\controller\Article.php:151]
+[2021-12-13T19:32:42+08:00][sql] CONNECT:[ UseTime:0.020603s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-13T19:32:42+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.000714s ]
+[2021-12-13T19:32:42+08:00][sql] SELECT `id` FROM `article` WHERE  `title` = '浸泡世界的哭泣12'  AND `id` <> 8 LIMIT 1 [ RunTime:0.000291s ]
+[2021-12-13T19:32:42+08:00][error] [10500]数据表字段不存在:[content][D:\Web\www.jinx.com\vendor\topthink\think-orm\src\db\Builder.php:164]

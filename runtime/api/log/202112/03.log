@@ -1,0 +1,38 @@
+[2021-12-03T10:03:33+08:00][sql] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T10:03:33+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.001025s ]
+[2021-12-03T10:03:33+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.000309s ]
+[2021-12-03T10:15:05+08:00][sql] CONNECT:[ UseTime:0.001721s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T10:15:05+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002043s ]
+[2021-12-03T10:15:05+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.000318s ]
+[2021-12-03T15:46:30+08:00][error] [0]Using $this when not in object context[D:\Web\www.jinx.com\app\api\controller\Crypt.php:30]
+[2021-12-03T15:46:49+08:00][sql] CONNECT:[ UseTime:0.008905s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T15:46:49+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.006109s ]
+[2021-12-03T15:46:49+08:00][error] [8]未定义数组索引: data[D:\Web\www.jinx.com\app\api\controller\Index.php:39]
+[2021-12-03T15:54:13+08:00][sql] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T15:54:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000987s ]
+[2021-12-03T15:54:13+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.001056s ]
+[2021-12-03T15:54:13+08:00][error] [8]未定义变量: publickey[D:\Web\www.jinx.com\app\common\lib\Crypt.php:94]
+[2021-12-03T15:56:13+08:00][sql] CONNECT:[ UseTime:0.000684s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T15:56:13+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000826s ]
+[2021-12-03T15:56:13+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.000247s ]
+[2021-12-03T15:56:22+08:00][sql] CONNECT:[ UseTime:0.001350s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T15:56:22+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.001303s ]
+[2021-12-03T15:56:22+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.000335s ]
+[2021-12-03T16:17:27+08:00][sql] CONNECT:[ UseTime:0.000713s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T16:17:27+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000904s ]
+[2021-12-03T16:17:27+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000255s ]
+[2021-12-03T16:17:27+08:00][sql] SELECT * FROM `user` WHERE  ( `email` = '932046899@qq.com' OR `phone` = '932046899@qq.com' )  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000197s ]
+[2021-12-03T16:17:27+08:00][error] [0]Class 'library\Jwttoken' not found[D:\Web\www.jinx.com\app\api\controller\User.php:58]
+[2021-12-03T16:29:50+08:00][sql] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T16:29:50+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.001066s ]
+[2021-12-03T16:29:50+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000244s ]
+[2021-12-03T16:29:50+08:00][sql] SELECT * FROM `user` WHERE  ( `email` = '932046899@qq.com' OR `phone` = '932046899@qq.com' )  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000232s ]
+[2021-12-03T16:29:50+08:00][error] [0]Argument 2 passed to lib\Jwttoken::createJwt() must be of the type string, int given, called in D:\Web\www.jinx.com\app\api\controller\User.php on line 61[D:\Web\www.jinx.com\extend\lib\Jwttoken.php:9]
+[2021-12-03T16:34:52+08:00][sql] CONNECT:[ UseTime:0.000707s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T16:34:52+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.001384s ]
+[2021-12-03T16:34:52+08:00][sql] SELECT `id`,`nickname`,`create_time` FROM `user` WHERE  ( `email` = '15119498976' OR `phone` = '15119498976' ) LIMIT 1 [ RunTime:0.001324s ]
+[2021-12-03T16:38:15+08:00][sql] CONNECT:[ UseTime:0.000925s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-12-03T16:38:15+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000905s ]
+[2021-12-03T16:38:15+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000224s ]
+[2021-12-03T16:38:15+08:00][sql] SELECT * FROM `user` WHERE  ( `email` = '932046899@qq.com' OR `phone` = '932046899@qq.com' )  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000183s ]
+[2021-12-03T16:38:15+08:00][error] [0]Call to undefined method lib\Jwttoken::verify()[D:\Web\www.jinx.com\app\api\controller\User.php:67]

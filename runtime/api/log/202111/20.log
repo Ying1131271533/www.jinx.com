@@ -1,0 +1,20 @@
+[2021-11-20T10:43:59+08:00][sql] CONNECT:[ UseTime:0.001132s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-20T10:43:59+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000797s ]
+[2021-11-20T10:43:59+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '15119498976' LIMIT 1 [ RunTime:0.000321s ]
+[2021-11-20T10:43:59+08:00][sql] SELECT * FROM `user` WHERE  `email` = '15119498976' LIMIT 1 [ RunTime:0.000187s ]
+[2021-11-20T11:51:51+08:00][sql] CONNECT:[ UseTime:0.000950s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-20T11:51:51+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000968s ]
+[2021-11-20T11:51:51+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000662s ]
+[2021-11-20T11:51:51+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000298s ]
+[2021-11-20T11:54:58+08:00][sql] CONNECT:[ UseTime:0.002035s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-20T11:54:58+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002836s ]
+[2021-11-20T11:54:58+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000288s ]
+[2021-11-20T11:54:58+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000183s ]
+[2021-11-20T11:57:27+08:00][sql] CONNECT:[ UseTime:0.022432s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-20T11:57:27+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000764s ]
+[2021-11-20T11:57:27+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000239s ]
+[2021-11-20T11:57:27+08:00][sql] SELECT * FROM `user` WHERE  `email` = '932046899@qq.com' LIMIT 1 [ RunTime:0.000321s ]
+[2021-11-20T11:57:43+08:00][sql] CONNECT:[ UseTime:0.002827s ] mysql:host=127.0.0.1;port=3306;dbname=www_jinx_com;charset=utf8
+[2021-11-20T11:57:43+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.002155s ]
+[2021-11-20T11:57:43+08:00][sql] SELECT * FROM `user` WHERE  `phone` = '15119498976' LIMIT 1 [ RunTime:0.000227s ]
+[2021-11-20T11:57:43+08:00][sql] SELECT * FROM `user` WHERE  `email` = '15119498976' LIMIT 1 [ RunTime:0.000160s ]
